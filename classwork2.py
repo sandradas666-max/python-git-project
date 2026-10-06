@@ -1,20 +1,20 @@
-book1=""" The Book Title is "Python Basics" 
-and the book price is ₹450   """
-book2=""" The Book Title is "Data Science Intro"
- and the book price is  ₹600    """
-print(book1)
-print(book2)
 
-print("The first book title is {a} and the book price is {b}.\n The second book title is {c} and the book price is {d}".format(a='Python Basics',b='₹450',c='Data Science Intro',d='₹600'))
+receipt_header="""===== BOOKSTORE RECEIPT =====
+Customer Purchase Details
+--------------------------"""
+book1 = "Book Title: {} \t Price: {}".format("Python Basics", "₹450")
+book2="Book Title: {} \t price: {}".format("Data Science Intro","₹600")
 
 book1_price=450
 book2_price=600
 
 total_price=(book1_price + book2_price)
-print("total book price is",total_price)
+total = "Total Price: {}".format(total_price)
 
-message1="Thank"
-message2="You"
-print(message1 + message2)
+thank_you = "\nThank You for Shopping With Us!"
 
-print(message1,message2,book1,book2.upper())
+receipt = receipt_header + "\n" + book1 + "\n" + book2 + "\n" + total + thank_you
+
+print(receipt.upper())
+
+
