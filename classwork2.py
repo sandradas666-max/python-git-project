@@ -1,5 +1,5 @@
 
-receipt_header="""===== BOOKSTORE RECEIPT =====
+receipt_header="""-------------- BOOKSTORE RECEIPT -----------
 Customer Purchase Details
 --------------------------"""
 book1 = "Book Title: {} \t Price: {}".format("Python Basics", "₹450")
