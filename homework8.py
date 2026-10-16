@@ -64,7 +64,7 @@ multi1 = MultiTrainer(
 )
 
 
-#Display the details of each object
+# Display the details of each object
 print("Employee Details")
 employee1.display()
 
