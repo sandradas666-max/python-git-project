@@ -1,4 +1,3 @@
-
 from tracker import create_record
 from datetime import datetime
 import json
@@ -7,7 +6,7 @@ import json
 trips = [
     create_record("Paris", "Visited the Eiffel Tower", "15-05-2023"),
     create_record("London", "Explored the museums", "20-06-2024"),
-    create_record("Tokyo", "Tried Japanese food", "10-01-2025")
+    create_record("Tokyo", "Tried Japanese food", "10-01-2025"),
 ]
 
 # Convert date strings into readable format
